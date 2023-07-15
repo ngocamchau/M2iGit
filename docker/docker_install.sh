@@ -1,5 +1,5 @@
 #POURQUOI CE SCRIPT ?
-# =====> Pour avoir systèmatiquement la dernière version de docker
+# =====> Pour avoir systèmatiquement la dernière version de docker stable
 
 #Installation de curl si necessaire
 sudo apt install curl -y
