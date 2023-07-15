@@ -11,7 +11,7 @@ sudo curl -fsSL https://get.docker.com -o install-docker.sh
 sudo sh ./install-docker.sh
 
 #Ajout de l'user courant dans le groupe docker
-sudo usermod -aG docker $USER
+sudo usermod -aG docker $USER  #variable user ajouté dans groupe mais necessite sudo . Investigation???
 
 #Reload du bash pour en tenir compte 
 sudo exec bash
