@@ -8,11 +8,17 @@ sudo apt install git -y
 #telechargement du sous-script d'installation docker latest depuis docker.com
 sudo curl -fsSL https://get.docker.com -o install-docker.sh
 
+#Telechargement docker-compose à faire également
+
+
+
 #Execution du sous-script d'installation de docker
 sudo sh ./install-docker.sh
 
+#Installation de docker-compose en latest à faire 
+
 #Ajout de l'user courant dans le groupe docker
-sudo usermod -apreston@docker:~$ sudo usermod -aG docker $USER
+sudo usermod -aG docker $USER
 sudo chown $USER /var/run/docker.sock
 sudo chmod 666 /var/run/docker.sockG docker $USER 
 
